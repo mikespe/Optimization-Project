@@ -1,3 +1,14 @@
+#Summary of optimization's done by mikespe
+
+exported analytics js script to external async file - no more blocking the rendering;
+added media='print' to print.css - only gets downloaded if the person wants to print, removing from crp
+inlined style.css - removes fetching from crp
+added async to any possible external js scripts - removes from crp and executes last
+resized a couple images - lowered KB
+compressed images - lowered KB
+minified css and js - lowered KB
+moved font data uri to css using @font-face - removed fetching and blocking of crp
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
