@@ -1,13 +1,13 @@
 #Summary of optimization's done by mikespe
 
-1.exported analytics js script to external async file - no more blocking the rendering;
-2.added media='print' to print.css - only gets downloaded if the person wants to print, removing from crp
-3.inlined style.css - removes fetching from crp
-4.added async to any possible external js scripts - removes from crp and executes last
-5.resized a couple images - lowered KB
-6.compressed images - lowered KB
-7.minified css and js - lowered KB
-8.moved font data uri to css using @font-face - removed fetching and blocking of crp
+1. exported analytics js script to external async file - no more blocking the rendering;
+2. added media='print' to print.css - only gets downloaded if the person wants to print, removing from crp
+3. inlined style.css - removes fetching from crp
+4. added async to any possible external js scripts - removes from crp and executes last
+5. resized a couple images - lowered KB
+6. compressed images - lowered KB
+7. minified css and js - lowered KB
+8. moved font data uri to css using @font-face - removed fetching and blocking of crp
 
 ## Website Performance Optimization portfolio project
 
